@@ -27,7 +27,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
         router.push("/sign-in");
       }
     });
-  }, []);
+  }, [router]);
 
   return (
     <>
